@@ -1,0 +1,24 @@
+# DCS runtime & local state
+logs/
+*.log
+*.track
+*.trk
+*.diff
+temp/
+tmp/
+~$*
+
+# Mission build artifacts
+missions/_build/
+*.zip
+
+# Windows noise
+Thumbs.db
+Desktop.ini
+
+# VSCode and Luacheck
+.vscode/
+.luacheckrc
+
+# Don’t version your real Saved Games configs; keep templates only
+# (your actual files live under: %USERPROFILE%\Saved Games\DCS.openbeta_server\...)
